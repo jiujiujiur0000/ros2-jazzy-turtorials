@@ -1,0 +1,317 @@
+[0.010s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces
+[0.059s] -- The C compiler identification is GNU 13.3.0
+[0.105s] -- The CXX compiler identification is GNU 13.3.0
+[0.122s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.212s] -- Detecting C compile features
+[0.212s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.314s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.327s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.471s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.590s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.647s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.664s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.755s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.778s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.362s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.480s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.485s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.612s] -- Found PythonExtra: /usr/bin/python3  
+[3.018s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.075s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.108s] -- Added test 'lint_cmake' to check CMake code style
+[3.110s] -- Added test 'xmllint' to check XML markup files
+[3.114s] -- Configuring done (3.1s)
+[3.154s] -- Generating done (0.0s)
+[3.164s] -- Build files have been written to: /home/jiujiujiur0000/workspace/vscode/turtorials/build/tutorial_interfaces
+[3.174s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces
+[3.175s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/tutorial_interfaces -- -j16 -l16
+[3.229s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.238s] [  1%] Built target ament_cmake_python_copy_tutorial_interfaces
+[3.415s] [  1%] Built target tutorial_interfaces__rosidl_generator_type_description
+[3.428s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.440s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.458s] running egg_info
+[3.459s] creating tutorial_interfaces.egg-info
+[3.478s] writing tutorial_interfaces.egg-info/PKG-INFO
+[3.478s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[3.479s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[3.479s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.538s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.538s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.564s] [  5%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[3.718s] [  5%] Built target tutorial_interfaces__cpp
+[3.778s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[3.778s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[3.778s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__description.c.o[0m
+[3.778s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[3.779s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__description.c.o[0m
+[3.779s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[3.779s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__description.c.o[0m
+[3.779s] [ 20%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[3.780s] [ 22%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[3.844s] [ 24%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[3.884s] [ 24%] Built target tutorial_interfaces__rosidl_generator_c
+[3.896s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.896s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.896s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.897s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.897s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.897s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.132s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[4.132s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[4.133s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[4.133s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[4.135s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[4.135s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[4.177s] [ 51%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[4.177s] [ 51%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[4.177s] [ 51%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[4.183s] [ 53%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[4.183s] [ 57%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[4.183s] [ 57%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[4.201s] [ 59%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[4.244s] [ 61%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.248s] [ 66%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[4.248s] [ 66%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[4.248s] [ 66%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[4.263s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[4.263s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[4.263s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[4.265s] [ 72%] Built target tutorial_interfaces__rosidl_typesupport_c
+[4.298s] [ 72%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[4.544s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[4.637s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[4.679s] [ 75%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.764s] [ 75%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[4.798s] [ 77%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.849s] [ 77%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[4.861s] [ 79%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.929s] [ 79%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.951s] [ 79%] Built target tutorial_interfaces
+[4.972s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.338s] [ 81%] Built target tutorial_interfaces__py
+[5.361s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[5.361s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[5.361s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[5.502s] [ 88%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_py.so[0m
+[5.547s] [ 88%] Built target tutorial_interfaces__rosidl_generator_py
+[5.569s] [ 92%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.569s] [ 92%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.569s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.668s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so[0m
+[5.668s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.670s] [100%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.701s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_c
+[5.701s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.701s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c
+[5.713s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/tutorial_interfaces -- -j16 -l16
+[5.724s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/tutorial_interfaces
+[5.734s] -- Install configuration: ""
+[5.734s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[5.734s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json
+[5.734s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.json
+[5.734s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.json
+[5.734s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.735s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.735s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.735s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[5.735s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__description.c
+[5.735s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[5.735s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[5.735s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[5.735s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[5.736s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[5.736s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.736s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.736s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__description.c
+[5.736s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[5.736s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[5.736s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[5.736s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[5.736s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[5.737s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[5.737s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[5.737s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[5.737s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[5.737s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c
+[5.737s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[5.737s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.737s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[5.738s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[5.738s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[5.738s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[5.738s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[5.739s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[5.739s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.739s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.739s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.739s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[5.739s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.739s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.739s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[5.739s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[5.739s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.740s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.740s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.740s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.740s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.741s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.741s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[5.741s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[5.741s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[5.741s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp
+[5.741s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[5.741s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.741s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.741s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[5.742s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.hpp
+[5.742s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[5.742s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[5.742s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[5.742s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[5.742s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp
+[5.742s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[5.742s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[5.742s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[5.743s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.743s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.743s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.743s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.743s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[5.743s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[5.743s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.743s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.743s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[5.743s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[5.744s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[5.744s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.744s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.744s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.744s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.744s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.744s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.744s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[5.745s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[5.745s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.745s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.745s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[5.745s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[5.745s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[5.745s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[5.745s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.745s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[5.745s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.745s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[5.746s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[5.746s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.746s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.746s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.746s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[5.746s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[5.746s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.746s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.746s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[5.747s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[5.747s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[5.747s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[5.747s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.747s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.747s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[5.748s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.748s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[5.748s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[5.748s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info
+[5.748s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.749s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.749s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.749s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.749s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces
+[5.749s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[5.749s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.749s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.750s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.750s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.750s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv
+[5.750s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[5.750s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[5.750s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py
+[5.750s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[5.750s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py
+[5.751s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg
+[5.751s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num_s.c
+[5.751s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere_s.c
+[5.751s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py
+[5.751s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py
+[5.751s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py
+[5.789s] Listing '/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces'...
+[5.789s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py'...
+[5.789s] Listing '/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg'...
+[5.790s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py'...
+[5.790s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py'...
+[5.790s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py'...
+[5.790s] Listing '/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv'...
+[5.790s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py'...
+[5.790s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[5.794s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.794s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.795s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.795s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.795s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[5.796s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.796s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[5.796s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[5.796s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[5.796s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[5.796s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[5.796s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[5.797s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[5.797s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[5.797s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[5.797s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[5.797s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[5.797s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[5.798s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[5.798s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[5.798s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[5.798s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[5.798s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[5.798s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[5.798s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[5.799s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[5.799s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[5.799s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.799s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.799s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.799s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[5.800s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.800s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.800s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.800s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.800s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[5.800s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.800s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.801s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.801s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[5.801s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.801s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[5.801s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.801s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.802s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.802s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.802s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.802s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.802s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.802s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.803s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[5.803s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[5.803s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[5.805s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/tutorial_interfaces
