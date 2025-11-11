@@ -1,0 +1,66 @@
+[0.009s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp
+[0.059s] -- The C compiler identification is GNU 13.3.0
+[0.106s] -- The CXX compiler identification is GNU 13.3.0
+[0.122s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.211s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.211s] -- Detecting C compile features
+[0.212s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.321s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.326s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.466s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.582s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.636s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.652s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.670s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.691s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.738s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.806s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.810s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.902s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.921s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.942s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.016s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[1.022s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.153s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.173s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.272s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.272s] -- Configured cppcheck include dirs: 
+[1.272s] -- Configured cppcheck exclude dirs and/or files: 
+[1.273s] -- Added test 'lint_cmake' to check CMake code style
+[1.275s] -- Added test 'uncrustify' to check C / C++ code style
+[1.275s] -- Configured uncrustify additional arguments: 
+[1.276s] -- Added test 'xmllint' to check XML markup files
+[1.277s] -- Configuring done (1.3s)
+[1.289s] -- Generating done (0.0s)
+[1.292s] -- Build files have been written to: /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp
+[1.302s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp
+[1.304s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp -- -j16 -l16
+[1.355s] [ 50%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[4.679s] [100%] [32m[1mLinking CXX executable static_turtle_tf2_broadcaster[0m
+[4.844s] [100%] Built target static_turtle_tf2_broadcaster
+[4.856s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp -- -j16 -l16
+[4.868s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp
+[4.876s] -- Install configuration: ""
+[4.876s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[4.878s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster" to ""
+[4.878s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[4.878s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[4.878s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[4.878s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[4.879s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[4.879s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[4.879s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[4.879s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[4.879s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[4.879s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[4.879s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[4.880s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[4.880s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[4.880s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[4.880s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[4.882s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp

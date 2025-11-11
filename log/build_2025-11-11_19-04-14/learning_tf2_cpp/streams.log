@@ -1,0 +1,60 @@
+[0.010s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp -- -j16 -l16
+[0.037s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.238s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.264s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.272s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.281s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.328s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.372s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.373s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.433s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.488s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.491s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.585s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.606s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.684s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.684s] -- Configured cppcheck include dirs: 
+[0.684s] -- Configured cppcheck exclude dirs and/or files: 
+[0.685s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.685s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.685s] -- Added test 'lint_cmake' to check CMake code style
+[0.685s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.686s] -- Added test 'uncrustify' to check C / C++ code style
+[0.686s] -- Configured uncrustify additional arguments: 
+[0.687s] -- Added test 'xmllint' to check XML markup files
+[0.688s] -- Configuring done (0.7s)
+[0.709s] -- Generating done (0.0s)
+[0.716s] -- Build files have been written to: /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp
+[0.756s] [ 16%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[0.765s] [ 83%] Built target turtle_tf2_broadcaster
+[0.765s] [ 83%] Built target static_turtle_tf2_broadcaster
+[5.662s] [100%] [32m[1mLinking CXX executable turtle_tf2_listener[0m
+[5.870s] [100%] Built target turtle_tf2_listener
+[5.881s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp -- -j16 -l16
+[5.891s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp
+[5.899s] -- Install configuration: ""
+[5.899s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[5.899s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[5.899s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[5.899s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo_launch.py
+[5.900s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/src
+[5.900s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/src/learning_tf2_cpp
+[5.900s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+[5.902s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener" to ""
+[5.902s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[5.903s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[5.903s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[5.903s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[5.903s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[5.903s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[5.903s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[5.903s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[5.903s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[5.903s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[5.903s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[5.903s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[5.904s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[5.904s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[5.904s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[5.905s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp
