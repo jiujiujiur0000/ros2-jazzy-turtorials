@@ -1,0 +1,22 @@
+[ 50%] Built target client
+[100%] Built target server
+-- Install configuration: ""
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/lib/cpp_srvcli/server
+-- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/lib/cpp_srvcli/client
+-- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+-- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/package.xml

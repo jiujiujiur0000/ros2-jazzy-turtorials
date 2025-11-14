@@ -1,0 +1,7 @@
+[0.018s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/cpp_srvcli -- -j16 -l16
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[3.533s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.710s] [100%] [32m[1mLinking CXX executable client[0m
+[3.727s] [100%] Built target server
+[3.863s] [100%] Built target client

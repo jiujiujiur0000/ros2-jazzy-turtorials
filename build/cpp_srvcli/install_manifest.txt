@@ -1,0 +1,17 @@
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/lib/cpp_srvcli/server
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/lib/cpp_srvcli/client
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli/share/cpp_srvcli/package.xml

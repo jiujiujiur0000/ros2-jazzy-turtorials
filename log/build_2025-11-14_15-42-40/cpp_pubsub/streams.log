@@ -1,0 +1,10 @@
+[0.013s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_pubsub
+[0.019s] [33mCMake Warning:
+[0.020s]   Ignoring extra path from command line:
+[0.020s] 
+[0.020s]    "/home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub"
+[0.020s] 
+[0.020s] [0m
+[0.020s] [0mCMake Error: The source directory "/home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub" does not appear to contain CMakeLists.txt.
+[0.020s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.021s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_pubsub

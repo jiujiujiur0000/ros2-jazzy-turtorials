@@ -69,36 +69,36 @@ include CMakeFiles/listener.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/listener.dir/flags.make
 
-CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o: CMakeFiles/listener.dir/flags.make
-CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o: /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/subscriber_lambda_function.cpp
-CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o: CMakeFiles/listener.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jiujiujiur0000/workspace/vscode/turtorials/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o -MF CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o.d -o CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o -c /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/subscriber_lambda_function.cpp
+CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o: CMakeFiles/listener.dir/flags.make
+CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o: /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/subscriber_member_function.cpp
+CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o: CMakeFiles/listener.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jiujiujiur0000/workspace/vscode/turtorials/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o -MF CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o.d -o CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o -c /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/subscriber_member_function.cpp
 
-CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/subscriber_lambda_function.cpp > CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.i
+CMakeFiles/listener.dir/src/subscriber_member_function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/listener.dir/src/subscriber_member_function.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/subscriber_member_function.cpp > CMakeFiles/listener.dir/src/subscriber_member_function.cpp.i
 
-CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/subscriber_lambda_function.cpp -o CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.s
+CMakeFiles/listener.dir/src/subscriber_member_function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/listener.dir/src/subscriber_member_function.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/subscriber_member_function.cpp -o CMakeFiles/listener.dir/src/subscriber_member_function.cpp.s
 
 # Object files for target listener
 listener_OBJECTS = \
-"CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o"
+"CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o"
 
 # External object files for target listener
 listener_EXTERNAL_OBJECTS =
 
-listener: CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o
+listener: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o
 listener: CMakeFiles/listener.dir/build.make
 listener: /opt/ros/jazzy/lib/librclcpp.so
-listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
-listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
+listener: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+listener: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+listener: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+listener: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+listener: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+listener: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
 listener: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 listener: /opt/ros/jazzy/lib/librcl.so
 listener: /opt/ros/jazzy/lib/librmw_implementation.so
@@ -118,13 +118,6 @@ listener: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 listener: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so
 listener: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so
 listener: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so
-listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
-listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
-listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
-listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
-listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
-listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
-listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 listener: /opt/ros/jazzy/lib/librcl_yaml_param_parser.so
 listener: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
 listener: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -144,6 +137,25 @@ listener: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 listener: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so
 listener: /opt/ros/jazzy/lib/libtracetools.so
 listener: /opt/ros/jazzy/lib/librcl_logging_interface.so
+listener: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+listener: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+listener: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+listener: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+listener: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
+listener: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
+listener: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
+listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+listener: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+listener: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
+listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
 listener: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 listener: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -160,7 +172,9 @@ listener: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
 listener: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 listener: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so
 listener: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
+listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
 listener: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+listener: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 listener: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 listener: /opt/ros/jazzy/lib/librosidl_typesupport_c.so
 listener: /opt/ros/jazzy/lib/librcpputils.so

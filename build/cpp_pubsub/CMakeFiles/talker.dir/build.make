@@ -69,36 +69,36 @@ include CMakeFiles/talker.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/talker.dir/flags.make
 
-CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o: CMakeFiles/talker.dir/flags.make
-CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o: /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/publisher_lambda_function.cpp
-CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o: CMakeFiles/talker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jiujiujiur0000/workspace/vscode/turtorials/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o -MF CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o.d -o CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o -c /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/publisher_lambda_function.cpp
+CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: CMakeFiles/talker.dir/flags.make
+CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/publisher_member_function.cpp
+CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: CMakeFiles/talker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jiujiujiur0000/workspace/vscode/turtorials/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/talker.dir/src/publisher_member_function.cpp.o -MF CMakeFiles/talker.dir/src/publisher_member_function.cpp.o.d -o CMakeFiles/talker.dir/src/publisher_member_function.cpp.o -c /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/publisher_member_function.cpp
 
-CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/publisher_lambda_function.cpp > CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.i
+CMakeFiles/talker.dir/src/publisher_member_function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/publisher_member_function.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/publisher_member_function.cpp > CMakeFiles/talker.dir/src/publisher_member_function.cpp.i
 
-CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/publisher_lambda_function.cpp -o CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.s
+CMakeFiles/talker.dir/src/publisher_member_function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/publisher_member_function.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_pubsub/src/publisher_member_function.cpp -o CMakeFiles/talker.dir/src/publisher_member_function.cpp.s
 
 # Object files for target talker
 talker_OBJECTS = \
-"CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o"
+"CMakeFiles/talker.dir/src/publisher_member_function.cpp.o"
 
 # External object files for target talker
 talker_EXTERNAL_OBJECTS =
 
-talker: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o
+talker: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o
 talker: CMakeFiles/talker.dir/build.make
 talker: /opt/ros/jazzy/lib/librclcpp.so
-talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
-talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
+talker: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+talker: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+talker: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+talker: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+talker: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+talker: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
 talker: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 talker: /opt/ros/jazzy/lib/librcl.so
 talker: /opt/ros/jazzy/lib/librmw_implementation.so
@@ -118,13 +118,6 @@ talker: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 talker: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so
 talker: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so
 talker: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so
-talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
-talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
-talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
-talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
-talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
-talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
-talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 talker: /opt/ros/jazzy/lib/librcl_yaml_param_parser.so
 talker: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
 talker: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -144,6 +137,25 @@ talker: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 talker: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so
 talker: /opt/ros/jazzy/lib/libtracetools.so
 talker: /opt/ros/jazzy/lib/librcl_logging_interface.so
+talker: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+talker: /home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+talker: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+talker: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+talker: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
+talker: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
+talker: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
+talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+talker: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+talker: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
+talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
 talker: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 talker: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -160,7 +172,9 @@ talker: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
 talker: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 talker: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so
 talker: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
+talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
 talker: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+talker: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 talker: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 talker: /opt/ros/jazzy/lib/librosidl_typesupport_c.so
 talker: /opt/ros/jazzy/lib/librcpputils.so

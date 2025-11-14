@@ -1,0 +1,16 @@
+[0.015s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp -- -j16 -l16
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_frame_tf2_broadcaster.dir/src/dynamic_frame_tf2_broadcaster.cpp.o[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/fixed_frame_tf2_broadcaster.dir/src/fixed_frame_tf2_broadcaster.cpp.o[0m
+[4.023s] [ 60%] [32m[1mLinking CXX executable static_turtle_tf2_broadcaster[0m
+[4.090s] [ 70%] [32m[1mLinking CXX executable dynamic_frame_tf2_broadcaster[0m
+[4.164s] [ 80%] [32m[1mLinking CXX executable fixed_frame_tf2_broadcaster[0m
+[4.255s] [ 80%] Built target static_turtle_tf2_broadcaster
+[4.291s] [ 80%] Built target dynamic_frame_tf2_broadcaster
+[4.353s] [ 80%] Built target fixed_frame_tf2_broadcaster
+[6.003s] [ 90%] [32m[1mLinking CXX executable turtle_tf2_listener[0m
+[6.239s] [ 90%] Built target turtle_tf2_listener
+[7.465s] [100%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[7.740s] [100%] Built target turtle_tf2_broadcaster

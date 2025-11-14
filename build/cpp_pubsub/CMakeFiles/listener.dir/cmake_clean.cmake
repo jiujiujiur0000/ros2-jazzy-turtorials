@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o"
-  "CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o.d"
+  "CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o"
+  "CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o.d"
   "listener"
   "listener.pdb"
 )
