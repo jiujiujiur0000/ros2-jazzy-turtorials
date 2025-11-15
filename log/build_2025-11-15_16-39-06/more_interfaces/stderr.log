@@ -1,0 +1,8 @@
+[01m[K/home/jiujiujiur0000/workspace/vscode/turtorials/src/more_interfaces/src/publish_address_book.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/address_book.hpp: 没有那个文件或目录
+    5 | #include [01;31m[K"more_interfaces/msg/address_book.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76：CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:623：CMakeFiles/publish_address_book.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

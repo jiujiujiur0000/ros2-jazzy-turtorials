@@ -1,0 +1,7 @@
+{
+  "package_name": "more_interfaces",
+  "output_dir": "/home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces/rosidl_generator_type_description/more_interfaces",
+  "idl_tuples": [
+    "/home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces/rosidl_adapter/more_interfaces:msg/AddressBook.idl"
+  ]
+}
