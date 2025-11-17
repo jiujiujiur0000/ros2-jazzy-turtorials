@@ -1,0 +1,284 @@
+[0.100s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'polygon_base', 'polygon_plugins']
+[0.100s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['polygon_base', 'polygon_plugins'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76609c3ad640>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76609c373320>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76609c373320>>, mixin_verb=('build',))
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.132s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jiujiujiur0000/workspace/vscode/turtorials'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_parameters) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_parameters' with type 'ros.ament_cmake' and name 'cpp_parameters'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_tf2_cpp' with type 'ros.ament_cmake' and name 'learning_tf2_cpp'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/more_interfaces) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_plugins' with type 'ros.ament_cmake' and name 'polygon_plugins'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp_parameters' in 'src/cpp_parameters'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'learning_tf2_cpp' in 'src/learning_tf2_cpp'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'more_interfaces' in 'src/more_interfaces'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tutorial_interfaces' in 'src/tutorial_interfaces'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp_pubsub' in 'src/cpp_pubsub'
+[0.176s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp_srvcli' in 'src/cpp_srvcli'
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/jiujiujiur0000/workspace/vscode/turtorials/install
+[0.180s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/jiujiujiur0000/workspace/vscode/ros2_control_demos/install
+[0.182s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 363 installed packages in /opt/ros/jazzy
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base', 'merge_install': False, 'path': '/home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_base', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins', 'merge_install': False, 'path': '/home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.228s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.229s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_base' with build type 'ament_cmake'
+[0.229s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_base'
+[0.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base
+[1.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base -- -j16 -l16
+[3.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base -- -j16 -l16
+[3.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base
+[3.621s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[3.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base
+[3.625s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base' for CMake module files
+[3.626s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base' for CMake config files
+[3.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[3.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[3.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[3.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[3.628s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/lib'
+[3.628s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/bin'
+[3.628s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[3.629s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/lib/python3.12/site-packages'
+[3.629s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/bin'
+[3.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.ps1'
+[3.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.dsv'
+[3.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.sh'
+[3.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.bash'
+[3.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.zsh'
+[3.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/colcon-core/packages/polygon_base)
+[3.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[3.633s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base' for CMake module files
+[3.633s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base' for CMake config files
+[3.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[3.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[3.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[3.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[3.635s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/lib'
+[3.635s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/bin'
+[3.635s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[3.635s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/lib/python3.12/site-packages'
+[3.635s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/bin'
+[3.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.ps1'
+[3.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.dsv'
+[3.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.sh'
+[3.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.bash'
+[3.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.zsh'
+[3.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/colcon-core/packages/polygon_base)
+[3.638s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_plugins' with build type 'ament_cmake'
+[3.638s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_plugins'
+[3.638s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.638s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_plugins': AMENT_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_pubsub:/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp:/home/jiujiujiur0000/workspace/vscode/ros2_control_demos/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins
+[4.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_pubsub:/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp:/home/jiujiujiur0000/workspace/vscode/ros2_control_demos/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins
+[4.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_plugins': AMENT_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_pubsub:/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp:/home/jiujiujiur0000/workspace/vscode/ros2_control_demos/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_plugins -- -j16 -l16
+[5.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_pubsub:/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp:/home/jiujiujiur0000/workspace/vscode/ros2_control_demos/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_plugins -- -j16 -l16
+[5.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_plugins': AMENT_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_pubsub:/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp:/home/jiujiujiur0000/workspace/vscode/ros2_control_demos/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_plugins
+[5.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_plugins)
+[5.225s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins' for CMake module files
+[5.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_srvcli:/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_pubsub:/home/jiujiujiur0000/workspace/vscode/turtorials/install/tutorial_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces:/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp:/home/jiujiujiur0000/workspace/vscode/ros2_control_demos/install:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_plugins
+[5.225s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins' for CMake config files
+[5.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'cmake_prefix_path')
+[5.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.ps1'
+[5.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.dsv'
+[5.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.sh'
+[5.227s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/lib'
+[5.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'ld_library_path_lib')
+[5.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.ps1'
+[5.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.dsv'
+[5.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.sh'
+[5.228s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/bin'
+[5.228s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/lib/pkgconfig/polygon_plugins.pc'
+[5.228s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/lib/python3.12/site-packages'
+[5.228s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/bin'
+[5.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/package.ps1'
+[5.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/package.dsv'
+[5.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/package.sh'
+[5.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/package.bash'
+[5.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/package.zsh'
+[5.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/colcon-core/packages/polygon_plugins)
+[5.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_plugins)
+[5.231s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins' for CMake module files
+[5.231s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins' for CMake config files
+[5.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'cmake_prefix_path')
+[5.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.ps1'
+[5.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.dsv'
+[5.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.sh'
+[5.232s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/lib'
+[5.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'ld_library_path_lib')
+[5.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.ps1'
+[5.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.dsv'
+[5.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.sh'
+[5.233s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/bin'
+[5.233s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/lib/pkgconfig/polygon_plugins.pc'
+[5.234s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/lib/python3.12/site-packages'
+[5.234s] Level 1:colcon.colcon_core.environment:checking '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/bin'
+[5.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/package.ps1'
+[5.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/package.dsv'
+[5.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/package.sh'
+[5.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/package.bash'
+[5.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/polygon_plugins/package.zsh'
+[5.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_plugins/share/colcon-core/packages/polygon_plugins)
+[5.236s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.236s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.236s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.236s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.242s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.259s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/local_setup.ps1'
+[5.260s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiujiujiur0000/workspace/vscode/turtorials/install/_local_setup_util_ps1.py'
+[5.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/setup.ps1'
+[5.263s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/local_setup.sh'
+[5.264s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiujiujiur0000/workspace/vscode/turtorials/install/_local_setup_util_sh.py'
+[5.265s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/setup.sh'
+[5.266s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/local_setup.bash'
+[5.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/setup.bash'
+[5.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/local_setup.zsh'
+[5.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiujiujiur0000/workspace/vscode/turtorials/install/setup.zsh'

@@ -1,0 +1,29 @@
+[0.026s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base -- -j16 -l16
+[0.077s] [100%] Built target area_node
+[0.093s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base -- -j16 -l16
+[0.094s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base
+[0.105s] -- Install configuration: ""
+[0.105s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/include/polygon_base
+[0.105s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/include/polygon_base/polygon_base
+[0.106s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/include/polygon_base/polygon_base/regular_polygon.hpp
+[0.106s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/export_polygon_base.cmake
+[0.106s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/lib/polygon_base/area_node
+[0.106s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[0.106s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[0.106s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[0.106s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[0.107s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/environment/path.sh
+[0.107s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/environment/path.dsv
+[0.107s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/local_setup.bash
+[0.107s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/local_setup.sh
+[0.107s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/local_setup.zsh
+[0.108s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/local_setup.dsv
+[0.108s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.dsv
+[0.108s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[0.108s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/export_polygon_baseExport.cmake
+[0.108s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.108s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_targets-extras.cmake
+[0.108s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[0.109s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[0.109s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.xml
+[0.121s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base

@@ -1,0 +1,10 @@
+/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base/CMakeFiles/uninstall.dir
+/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base/CMakeFiles/polygon_base_uninstall.dir
+/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base/CMakeFiles/area_node.dir
+/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base/CMakeFiles/test.dir
+/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base/CMakeFiles/edit_cache.dir
+/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base/CMakeFiles/rebuild_cache.dir
+/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base/CMakeFiles/list_install_components.dir
+/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base/CMakeFiles/install.dir
+/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base/CMakeFiles/install/local.dir
+/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base/CMakeFiles/install/strip.dir

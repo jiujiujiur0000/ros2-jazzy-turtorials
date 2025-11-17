@@ -1,0 +1,25 @@
+[0.022s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces -- -j16 -l16
+[0.081s] [  2%] Built target more_interfaces__rosidl_generator_type_description
+[0.096s] [  2%] Built target ament_cmake_python_copy_more_interfaces
+[0.105s] [  5%] Built target more_interfaces__cpp
+[0.108s] [ 19%] Built target more_interfaces__rosidl_generator_c
+[0.135s] [ 27%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.135s] [ 36%] Built target more_interfaces__rosidl_typesupport_c
+[0.139s] [ 44%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.139s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.139s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.139s] [ 69%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.161s] [ 69%] Built target more_interfaces
+[0.169s] [ 75%] Built target publish_address_book
+[0.184s] [ 77%] Built target more_interfaces__py
+[0.208s] [ 83%] Built target more_interfaces__rosidl_generator_py
+[0.234s] [100%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.234s] [100%] Built target more_interfaces_s__rosidl_typesupport_introspection_c
+[0.234s] [100%] Built target more_interfaces_s__rosidl_typesupport_c
+[0.322s] running egg_info
+[0.342s] writing more_interfaces.egg-info/PKG-INFO
+[0.342s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.342s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.402s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.403s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.432s] [100%] Built target ament_cmake_python_build_more_interfaces_egg

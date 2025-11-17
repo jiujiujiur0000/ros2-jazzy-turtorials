@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces/custom_action_interfaces__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "custom_action_interfaces::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "custom_action_interfaces__py::@6e7814dcd6ceff27e658",
+	"name" : "custom_action_interfaces__py",
+	"paths" : 
+	{
+		"build" : "custom_action_interfaces__py",
+		"source" : "/home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces/custom_action_interfaces__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces/custom_action_interfaces__py/CMakeFiles/custom_action_interfaces__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces/custom_action_interfaces__py/CMakeFiles/custom_action_interfaces__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
