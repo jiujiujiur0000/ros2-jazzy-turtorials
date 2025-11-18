@@ -1,1 +1,0 @@
-Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/cpp_parameters

@@ -1,0 +1,61 @@
+[0.034s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base
+[0.164s] -- The C compiler identification is GNU 13.3.0
+[0.279s] -- The CXX compiler identification is GNU 13.3.0
+[0.306s] -- Detecting C compiler ABI info
+[0.430s] -- Detecting C compiler ABI info - done
+[0.443s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.443s] -- Detecting C compile features
+[0.443s] -- Detecting C compile features - done
+[0.457s] -- Detecting CXX compiler ABI info
+[0.593s] -- Detecting CXX compiler ABI info - done
+[0.605s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.605s] -- Detecting CXX compile features
+[0.606s] -- Detecting CXX compile features - done
+[0.624s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.853s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.043s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[1.114s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.122s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.278s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.278s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_base/include>
+[1.278s] -- Configured cppcheck exclude dirs and/or files: 
+[1.280s] -- Added test 'lint_cmake' to check CMake code style
+[1.283s] -- Added test 'uncrustify' to check C / C++ code style
+[1.283s] -- Configured uncrustify additional arguments: 
+[1.285s] -- Added test 'xmllint' to check XML markup files
+[1.290s] -- Configuring done (1.2s)
+[1.298s] -- Generating done (0.0s)
+[1.301s] -- Build files have been written to: /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base
+[1.312s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base
+[1.314s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base -- -j16 -l16
+[1.384s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[5.153s] [100%] [32m[1mLinking CXX executable area_node[0m
+[5.353s] [100%] Built target area_node
+[5.381s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base -- -j16 -l16
+[5.383s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base
+[5.396s] -- Install configuration: ""
+[5.396s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/include/polygon_base
+[5.396s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/include/polygon_base/polygon_base
+[5.396s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/include/polygon_base/polygon_base/regular_polygon.hpp
+[5.397s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/export_polygon_base.cmake
+[5.397s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/lib/polygon_base/area_node
+[5.399s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/lib/polygon_base/area_node" to ""
+[5.399s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[5.399s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[5.400s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[5.400s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[5.400s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/environment/path.sh
+[5.400s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/environment/path.dsv
+[5.401s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/local_setup.bash
+[5.401s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/local_setup.sh
+[5.401s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/local_setup.zsh
+[5.401s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/local_setup.dsv
+[5.401s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.dsv
+[5.402s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[5.402s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/export_polygon_baseExport.cmake
+[5.402s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.402s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_targets-extras.cmake
+[5.402s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[5.403s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[5.403s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/polygon_base/share/polygon_base/package.xml
+[5.406s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/polygon_base

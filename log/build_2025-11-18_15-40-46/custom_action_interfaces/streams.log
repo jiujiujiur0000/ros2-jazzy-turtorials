@@ -1,0 +1,234 @@
+[0.037s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/custom_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces
+[0.169s] -- The C compiler identification is GNU 13.3.0
+[0.287s] -- The CXX compiler identification is GNU 13.3.0
+[0.311s] -- Detecting C compiler ABI info
+[0.436s] -- Detecting C compiler ABI info - done
+[0.449s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.450s] -- Detecting C compile features
+[0.451s] -- Detecting C compile features - done
+[0.462s] -- Detecting CXX compiler ABI info
+[0.599s] -- Detecting CXX compiler ABI info - done
+[0.612s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.613s] -- Detecting CXX compile features
+[0.613s] -- Detecting CXX compile features - done
+[0.628s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.863s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.048s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.065s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.250s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.125s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.758s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.989s] -- Found PythonExtra: /usr/bin/python3  
+[4.749s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.819s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.877s] -- Added test 'lint_cmake' to check CMake code style
+[4.880s] -- Added test 'xmllint' to check XML markup files
+[4.885s] -- Configuring done (4.8s)
+[4.945s] -- Generating done (0.0s)
+[4.962s] -- Build files have been written to: /home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces
+[4.983s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/custom_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces
+[4.984s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces -- -j16 -l16
+[5.064s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.081s] [  2%] Built target ament_cmake_python_copy_custom_action_interfaces
+[5.401s] [  2%] Built target custom_action_interfaces__rosidl_generator_type_description
+[5.420s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.440s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.443s] running egg_info
+[5.444s] creating custom_action_interfaces.egg-info
+[5.481s] writing custom_action_interfaces.egg-info/PKG-INFO
+[5.481s] writing dependency_links to custom_action_interfaces.egg-info/dependency_links.txt
+[5.481s] writing top-level names to custom_action_interfaces.egg-info/top_level.txt
+[5.481s] writing manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[5.592s] reading manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[5.593s] writing manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[5.676s] [  8%] Built target ament_cmake_python_build_custom_action_interfaces_egg
+[6.213s] [  8%] Built target custom_action_interfaces__cpp
+[6.240s] [ 11%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__functions.c.o[0m
+[6.250s] [ 14%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[6.251s] [ 17%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__description.c.o[0m
+[6.515s] [ 20%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_generator_c.so[0m
+[6.594s] [ 20%] Built target custom_action_interfaces__rosidl_generator_c
+[6.626s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.627s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.634s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.635s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.643s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.653s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.335s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_action_interfaces/action/fibonacci__type_support.cpp.o[0m
+[7.422s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_action_interfaces/action/fibonacci__type_support.cpp.o[0m
+[7.648s] [ 47%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_action_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[7.652s] [ 50%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_c.so[0m
+[7.772s] [ 52%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_action_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[7.839s] [ 55%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.881s] [ 55%] Built target custom_action_interfaces__rosidl_typesupport_c
+[7.951s] [ 55%] Built target custom_action_interfaces__rosidl_typesupport_introspection_c
+[7.983s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[8.024s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[9.452s] [ 64%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.602s] [ 67%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_cpp.so[0m
+[9.657s] [ 67%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_c
+[9.821s] [ 70%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.900s] [ 70%] Built target custom_action_interfaces__rosidl_typesupport_cpp
+[10.082s] [ 70%] Built target custom_action_interfaces__rosidl_typesupport_introspection_cpp
+[10.534s] [ 73%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.662s] [ 73%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_cpp
+[10.692s] [ 73%] Built target custom_action_interfaces
+[10.726s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.511s] [ 76%] Built target custom_action_interfaces__py
+[11.541s] [ 79%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_fibonacci_s.c.o[0m
+[11.812s] [ 82%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_generator_py.so[0m
+[11.884s] [ 82%] Built target custom_action_interfaces__rosidl_generator_py
+[11.918s] [ 91%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.918s] [ 91%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.919s] [ 91%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[12.092s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[12.095s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so[0m
+[12.096s] [100%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[12.145s] [100%] Built target custom_action_interfaces_s__rosidl_typesupport_c
+[12.145s] [100%] Built target custom_action_interfaces_s__rosidl_typesupport_introspection_c
+[12.148s] [100%] Built target custom_action_interfaces_s__rosidl_typesupport_fastrtps_c
+[12.169s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces -- -j16 -l16
+[12.171s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces
+[12.183s] -- Install configuration: ""
+[12.183s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_action_interfaces
+[12.183s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.json
+[12.184s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[12.184s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[12.184s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[12.184s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__description.c
+[12.185s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.h
+[12.185s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.c
+[12.186s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.h
+[12.186s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.h
+[12.186s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c
+[12.186s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.h
+[12.187s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[12.187s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.187s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.sh
+[12.187s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.dsv
+[12.188s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_c.so
+[12.189s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_c.so" to ""
+[12.189s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[12.189s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[12.189s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[12.189s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[12.190s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[12.190s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.190s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.190s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.190s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[12.191s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[12.191s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[12.191s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[12.191s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c
+[12.191s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[12.191s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.192s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_c.so
+[12.192s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.192s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_c.so
+[12.193s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_c.so" to ""
+[12.193s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[12.193s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[12.193s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[12.193s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__builder.hpp
+[12.194s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__traits.hpp
+[12.194s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.hpp
+[12.194s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.hpp
+[12.194s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.hpp
+[12.194s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[12.194s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.195s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[12.195s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[12.195s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[12.195s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[12.195s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/dds_fastrtps
+[12.195s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[12.196s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.196s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.197s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.197s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[12.197s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[12.197s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[12.197s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.cpp
+[12.198s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[12.198s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.199s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.199s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_cpp.so
+[12.200s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.200s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.sh
+[12.200s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.dsv
+[12.200s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info
+[12.201s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[12.201s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[12.201s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[12.201s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[12.202s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces
+[12.202s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action
+[12.202s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci_s.c
+[12.202s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci.py
+[12.203s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/__init__.py
+[12.203s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so
+[12.203s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.203s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c
+[12.203s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so
+[12.204s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[12.204s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.204s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/__init__.py
+[12.264s] Listing '/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces'...
+[12.264s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/__init__.py'...
+[12.265s] Listing '/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action'...
+[12.265s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/__init__.py'...
+[12.265s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci.py'...
+[12.274s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[12.274s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[12.275s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so
+[12.275s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[12.275s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so
+[12.276s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so" to ""
+[12.276s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_py.so
+[12.277s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_py.so" to ""
+[12.277s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.idl
+[12.277s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.action
+[12.277s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_action_interfaces
+[12.278s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_action_interfaces
+[12.278s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.sh
+[12.279s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.dsv
+[12.279s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.sh
+[12.279s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.dsv
+[12.279s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.bash
+[12.280s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.sh
+[12.280s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.zsh
+[12.280s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.dsv
+[12.281s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/package.dsv
+[12.281s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/ament_index/resource_index/packages/custom_action_interfaces
+[12.281s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport.cmake
+[12.282s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.282s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.282s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.283s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.283s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.283s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport.cmake
+[12.284s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.284s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cppExport.cmake
+[12.284s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.285s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.285s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.285s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.286s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport.cmake
+[12.286s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.286s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport.cmake
+[12.287s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.287s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.288s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.288s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.288s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.289s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.289s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.289s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.289s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig.cmake
+[12.290s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig-version.cmake
+[12.290s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/custom_action_interfaces/share/custom_action_interfaces/package.xml
+[12.293s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/custom_action_interfaces

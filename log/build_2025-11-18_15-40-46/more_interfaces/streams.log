@@ -1,0 +1,245 @@
+[0.026s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces
+[0.146s] -- The C compiler identification is GNU 13.3.0
+[0.264s] -- The CXX compiler identification is GNU 13.3.0
+[0.287s] -- Detecting C compiler ABI info
+[0.411s] -- Detecting C compiler ABI info - done
+[0.422s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.423s] -- Detecting C compile features
+[0.424s] -- Detecting C compile features - done
+[0.439s] -- Detecting CXX compiler ABI info
+[0.574s] -- Detecting CXX compiler ABI info - done
+[0.586s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.589s] -- Detecting CXX compile features
+[0.589s] -- Detecting CXX compile features - done
+[0.606s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.835s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.025s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.041s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.227s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.235s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.364s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.370s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.519s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.551s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.585s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.492s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.163s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.404s] -- Found PythonExtra: /usr/bin/python3  
+[5.145s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.213s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.276s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.277s] -- Configured cppcheck include dirs: 
+[5.277s] -- Configured cppcheck exclude dirs and/or files: 
+[5.279s] -- Added test 'lint_cmake' to check CMake code style
+[5.282s] -- Added test 'uncrustify' to check C / C++ code style
+[5.282s] -- Configured uncrustify additional arguments: 
+[5.283s] -- Added test 'xmllint' to check XML markup files
+[5.290s] -- Configuring done (5.3s)
+[5.354s] -- Generating done (0.0s)
+[5.368s] -- Build files have been written to: /home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces
+[5.420s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces
+[5.422s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces -- -j16 -l16
+[5.536s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.564s] [  2%] Built target ament_cmake_python_copy_more_interfaces
+[5.942s] [  2%] Built target more_interfaces__rosidl_generator_type_description
+[5.968s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.993s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.004s] running egg_info
+[6.005s] creating more_interfaces.egg-info
+[6.040s] writing more_interfaces.egg-info/PKG-INFO
+[6.040s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[6.044s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[6.044s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[6.158s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[6.159s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[6.234s] [  8%] Built target ament_cmake_python_build_more_interfaces_egg
+[6.430s] [  8%] Built target more_interfaces__cpp
+[6.474s] [ 13%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[6.474s] [ 13%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[6.479s] [ 16%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__description.c.o[0m
+[6.557s] [ 19%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[6.662s] [ 19%] Built target more_interfaces__rosidl_generator_c
+[6.697s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.699s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.702s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.706s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.706s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.708s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.328s] [ 38%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[7.364s] [ 41%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[7.383s] [ 44%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[7.485s] [ 47%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.491s] [ 50%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[7.627s] [ 50%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[7.693s] [ 52%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[7.757s] [ 55%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[7.834s] [ 58%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[7.993s] [ 58%] Built target more_interfaces__rosidl_typesupport_c
+[8.143s] [ 61%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.388s] [ 63%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[8.419s] [ 63%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[8.575s] [ 63%] Built target more_interfaces__rosidl_typesupport_cpp
+[8.677s] [ 66%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[9.301s] [ 69%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.384s] [ 72%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.573s] [ 72%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[9.677s] [ 72%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.775s] [ 72%] Built target more_interfaces
+[9.839s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.416s] [ 75%] Built target more_interfaces__py
+[10.472s] [ 77%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[10.658s] [ 80%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_py.so[0m
+[10.717s] [ 80%] Built target more_interfaces__rosidl_generator_py
+[10.749s] [ 88%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.749s] [ 88%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.749s] [ 88%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.869s] [ 91%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so[0m
+[10.872s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[10.873s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[10.919s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_c
+[10.919s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c
+[10.922s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_introspection_c
+[14.820s] [100%] [32m[1mLinking CXX executable publish_address_book[0m
+[15.117s] [100%] Built target publish_address_book
+[15.146s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces -- -j16 -l16
+[15.149s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces
+[15.164s] -- Install configuration: ""
+[15.165s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[15.165s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/msg/AddressBook.json
+[15.166s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.166s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.166s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.166s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[15.166s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[15.167s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[15.167s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__description.c
+[15.167s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[15.167s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[15.168s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[15.168s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[15.168s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[15.169s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[15.169s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[15.170s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[15.170s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.171s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.171s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.171s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[15.171s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.172s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[15.172s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[15.173s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.173s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.173s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.173s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[15.174s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[15.174s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.174s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[15.174s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[15.174s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[15.175s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[15.175s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.175s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.175s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.175s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.hpp
+[15.176s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[15.176s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[15.176s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[15.176s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[15.176s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.177s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.177s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.177s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.177s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[15.177s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[15.177s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.178s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[15.178s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.178s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces
+[15.178s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[15.178s] -- Up-to-date: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[15.179s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[15.179s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[15.179s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[15.180s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[15.180s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[15.180s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[15.180s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[15.181s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[15.182s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info
+[15.182s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[15.182s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[15.182s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[15.182s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[15.183s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces
+[15.183s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[15.183s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so
+[15.184s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so
+[15.184s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[15.184s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.184s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[15.184s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py
+[15.185s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg
+[15.185s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book_s.c
+[15.185s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book.py
+[15.185s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/__init__.py
+[15.253s] Listing '/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces'...
+[15.253s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py'...
+[15.253s] Listing '/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg'...
+[15.253s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/__init__.py'...
+[15.254s] Compiling '/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book.py'...
+[15.267s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[15.269s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[15.269s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so
+[15.270s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[15.270s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so
+[15.270s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so" to ""
+[15.271s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[15.271s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""
+[15.271s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[15.271s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[15.272s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/more_interfaces/publish_address_book
+[15.274s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""
+[15.274s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[15.275s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[15.275s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[15.276s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[15.277s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/environment/path.sh
+[15.277s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[15.277s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/local_setup.bash
+[15.277s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/local_setup.sh
+[15.278s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[15.278s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[15.278s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/package.dsv
+[15.279s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[15.279s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[15.280s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[15.280s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[15.280s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.281s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[15.282s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.282s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[15.283s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[15.283s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[15.283s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.284s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.284s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[15.285s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.286s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[15.286s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[15.286s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[15.287s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[15.288s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[15.288s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.288s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[15.288s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[15.288s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.289s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.289s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.289s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[15.289s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[15.290s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/more_interfaces/share/more_interfaces/package.xml
+[15.294s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/more_interfaces

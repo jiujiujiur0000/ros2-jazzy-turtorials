@@ -1,0 +1,94 @@
+[0.026s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp
+[0.150s] -- The C compiler identification is GNU 13.3.0
+[0.270s] -- The CXX compiler identification is GNU 13.3.0
+[0.294s] -- Detecting C compiler ABI info
+[0.418s] -- Detecting C compiler ABI info - done
+[0.432s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.433s] -- Detecting C compile features
+[0.433s] -- Detecting C compile features - done
+[0.445s] -- Detecting CXX compiler ABI info
+[0.581s] -- Detecting CXX compiler ABI info - done
+[0.592s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.592s] -- Detecting CXX compile features
+[0.594s] -- Detecting CXX compile features - done
+[0.612s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.841s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.031s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.115s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.140s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.282s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.384s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.391s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.540s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.571s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.607s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.723s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[1.733s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.952s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[2.003s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.161s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.162s] -- Configured cppcheck include dirs: 
+[2.162s] -- Configured cppcheck exclude dirs and/or files: 
+[2.163s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.163s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.165s] -- Added test 'lint_cmake' to check CMake code style
+[2.166s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.169s] -- Added test 'uncrustify' to check C / C++ code style
+[2.169s] -- Configured uncrustify additional arguments: 
+[2.170s] -- Added test 'xmllint' to check XML markup files
+[2.174s] -- Configuring done (2.1s)
+[2.215s] -- Generating done (0.0s)
+[2.227s] -- Build files have been written to: /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp
+[2.243s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jiujiujiur0000/workspace/vscode/turtorials/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp
+[2.244s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp -- -j16 -l16
+[2.317s] [ 50%] [32mBuilding CXX object CMakeFiles/fixed_frame_tf2_broadcaster.dir/src/fixed_frame_tf2_broadcaster.cpp.o[0m
+[2.317s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[2.317s] [ 50%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[2.317s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[2.317s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_frame_tf2_broadcaster.dir/src/dynamic_frame_tf2_broadcaster.cpp.o[0m
+[10.028s] [ 60%] [32m[1mLinking CXX executable dynamic_frame_tf2_broadcaster[0m
+[10.055s] [ 70%] [32m[1mLinking CXX executable static_turtle_tf2_broadcaster[0m
+[10.069s] [ 80%] [32m[1mLinking CXX executable fixed_frame_tf2_broadcaster[0m
+[10.476s] [ 80%] Built target fixed_frame_tf2_broadcaster
+[10.478s] [ 80%] Built target static_turtle_tf2_broadcaster
+[10.482s] [ 80%] Built target dynamic_frame_tf2_broadcaster
+[12.951s] [ 90%] [32m[1mLinking CXX executable turtle_tf2_listener[0m
+[13.326s] [ 90%] Built target turtle_tf2_listener
+[14.651s] [100%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[15.194s] [100%] Built target turtle_tf2_broadcaster
+[15.215s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp -- -j16 -l16
+[15.217s] Invoking command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp
+[15.230s] -- Install configuration: ""
+[15.231s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[15.233s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster" to ""
+[15.233s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[15.240s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster" to ""
+[15.240s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[15.241s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/src
+[15.241s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/src/learning_tf2_cpp
+[15.242s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/src/learning_tf2_cpp/turtle_tf2_demo_launch.py
+[15.242s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/src/learning_tf2_cpp/turtle_tf2_dynamic_frame_demo_launch.py
+[15.243s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+[15.248s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener" to ""
+[15.248s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster
+[15.248s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster" to ""
+[15.248s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster
+[15.250s] -- Set non-toolchain portion of runtime path of "/home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster" to ""
+[15.251s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[15.251s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[15.252s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[15.252s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[15.253s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[15.253s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[15.254s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[15.254s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[15.254s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[15.255s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[15.255s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[15.256s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[15.256s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[15.256s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[15.257s] -- Installing: /home/jiujiujiur0000/workspace/vscode/turtorials/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[15.260s] Invoked command in '/home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_teleop:/home/jiujiujiur0000/workspace/vscode/turtlebot3-jazzy/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jiujiujiur0000/workspace/vscode/turtorials/build/learning_tf2_cpp
